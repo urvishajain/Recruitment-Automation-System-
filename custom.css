@@ -1,0 +1,144 @@
+    .form-level input {
+        width: 100%;
+        padding: 10px 15px;
+        border: 1px solid #EEE;
+        margin-bottom: 8px;
+    }
+    
+    .form-level {
+        position: relative;
+    }
+    
+    #service,
+    #pricing_table,
+    #about,
+    #team,
+    #blog,
+    #contact,
+    #testimonial,
+    #portfolio,
+    #video-fact,
+    #about-details {
+        padding-bottom: 130px;
+        padding-top: 90px;
+    }
+    
+    .section {
+        position: relative;
+    }
+    
+    #blog {
+        background: #F8F8F8;
+    }
+    
+    .form-level {
+        position: relative;
+    }
+    
+    div {
+        display: block;
+    }
+    
+    section {
+        padding: 50px 0px;
+    }
+    
+    .form-level span {
+        width: 50 px;
+        font-size: 20px;
+        padding-left: 17 px;
+        height: 47 px;
+        position: absolute;
+        color: #888;
+    }
+    
+    .form-icon {
+        position: absolute;
+        right: 10px;
+        color: #DDD;
+        top: 10px;
+    }
+    
+    ol,
+    ul,
+    dl {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+    }
+    
+    .footer_menu li a::before {
+        display: inline-block;
+        margin-right: 8px;
+        color: rgb(91, 91, 91);
+        content: "";
+        font-family: FontAwesome;
+    }
+    
+    .menu_head:after {
+        position: absolute;
+        left: 18px;
+        width: 55px;
+        height: 1px;
+        content: "";
+        top: 49px;
+    }
+    
+    .nc {
+        text-transform: capitalize;
+        font-weight: 400;
+        white-space: nowrap;
+    }
+    
+    .nc :hover {
+        color: #EE3B24
+    }
+    
+    .menu_head:before {
+        position: absolute;
+        left: 32px;
+        width: 24px;
+        height: 5px;
+        content: "";
+        display: inline-block;
+        top: 47px;
+    }
+    
+    .menu_head:after,
+    .menu_head:before {
+        background: none repeat scroll 0% 0% #EE3B24;
+    }
+    
+    .footer_top {
+        overflow: hidden;
+        padding: 30px 0px 50px;
+        border-bottom: 1px solid #0F0F0F;
+        background: none repeat scroll 0% 0% #333;
+        color: #AAA;
+    }
+    
+    #footer {
+        padding: 0;
+        position: relative;
+        line-height: 1.4rem;
+    }
+    
+    .footer_menu ul li a {
+        color: #AAA;
+    }
+    
+    .footer_menu ul li a:hover {
+        color: #EE3B24;
+    }
+    
+    .footer_menu_contact ul li span:hover {
+        color: #EE3B24;
+    }
+    
+    .footer_menu {
+        line-height: 1.5rem;
+    }
+    
+    .footer_menu_contact {
+        line-height: 1.5rem;
+    }
