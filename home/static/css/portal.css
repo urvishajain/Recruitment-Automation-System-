@@ -34,3 +34,21 @@ li {
     list-style: none;
     padding-bottom: 15 px;
 }
+
+.social-icons li {
+    float: left;
+    display: inline;
+    list-style: none;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    text-indent: -9999 px;
+}
+
+p,
+a,
+li {
+    color: #555;
+    line-height: 1.6;
+    font-family: 'Ubuntu', Arial, serif;
+    font-weight: 400;
+}
