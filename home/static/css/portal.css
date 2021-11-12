@@ -1,0 +1,36 @@
+.loginbar {
+    margin: 0;
+    padding: 0;
+    z-index: 9999;
+    list-style: none;
+    position: relative;
+}
+
+.loginbar i {
+    color: #999;
+    font-size: 18px;
+    margin-top: 3px;
+    cursor: pointer;
+}
+
+a,
+a:focus,
+a:hover,
+a:active {
+    outline: 0 !important;
+}
+
+p,
+a,
+li {
+    color: #555;
+    line-height: 1.6;
+    font-family: 'Ubuntu', Arial, serif;
+    font-weight: 400;
+}
+
+.loginbar li {
+    display: inline;
+    list-style: none;
+    padding-bottom: 15 px;
+}

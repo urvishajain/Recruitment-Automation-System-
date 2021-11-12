@@ -20,7 +20,7 @@ from home import views
 urlpatterns = [
     path("",views.main,name='main'),
     path("credits",views.credits,name='credits'),
-    path("contact",views.contact,name='contact'),
+    path("contacts",views.contacts,name='contacts'),
     path("signups",views.signups,name='signups'),
     path("signupr",views.signupr,name='signupr')
     
