@@ -19,10 +19,12 @@ from home import views
 
 urlpatterns = [
     path("",views.main,name='main'),
+    path("main",views.main,name='main'),
     path("credits",views.credits,name='credits'),
     path("contacts",views.contacts,name='contacts'),
     path("signups",views.signups,name='signups'),
-    path("signupr",views.signupr,name='signupr')
+    path("signupr",views.signupr,name='signupr'),
+    path("forgotpassword",views.forgotpassword,name='forgotpassword'),
     
 ]
 
