@@ -1,0 +1,40 @@
+
+    {% extends 'base.html' %} 
+
+{% block mainbody %}
+    <section id="blog">
+  <div class="container">
+                      
+
+  
+ <div class="row">
+      <div class="col-md-7 col-md-offset-3 mx-auto" style="border: 2px solid #73AD21; border-radius: 25px; padding:30px; background : #FFF; ">
+        
+         
+          
+          <div class="form-level mb-3">
+            
+            <input type="text" name="username" id="id_username" required placeholder="Username" class="input-block" maxlength="200" />
+            <span class="form-icon fa fa-user"></span>
+          </div>
+          <div class="form-level mb-3">
+            
+            <input type="password" name="password" required placeholder="Password" class="input-block" id="id_password" />
+            <span class = "form-icon fa fa-lock"></span>
+          </div>
+          <input type="Submit" class="btn btn-danger" value="Login" />
+        </form>
+        
+	<br>
+	<div class="row"><div class="col-md-12 text-center">
+	<hr>
+	
+
+	 </div></div>
+      </div>
+    </div>
+
+  </div>
+</section>
+   
+{% endblock mainbody %}

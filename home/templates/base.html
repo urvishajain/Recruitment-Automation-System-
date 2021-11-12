@@ -1,3 +1,7 @@
+  {% load static %}
+
+
+
 <!doctype html>
 <html lang="en">
 
@@ -9,7 +13,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="custom.css">
+    <link rel="stylesheet" href="{% static 'custom.css' %}">
     <title>Medicaps University Recruitment Portal </title>
 </head>
 
@@ -17,7 +21,7 @@
     <!-- Image and text -->
    
     <nav class="navbar navbar-expand-lg navbar-light bg-light " >
-      <div class="mr-5 pr-5">  <img src="Medicaps_logo.png" width="150" height="40" class="d-inline-block align-top" alt=""></div>
+      <div class="mr-5 pr-5">  <img src="/static/images/Medicaps_logo.png" width="150" height="40" class="d-inline-block align-top" alt=""></div>
 
         <a class="navbar-brand" href="#">   </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -60,7 +64,8 @@
             </ul>
         </div>
     </nav>
-    <div >{% block body %}{% endblock body  %}</div>
+   
+    <div >{% block mainbody %}{% endblock mainbody  %}</div>
      <section id="footer">
     <div class="footer_top">
         <div class="container">
