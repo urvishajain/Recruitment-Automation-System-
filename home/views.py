@@ -7,7 +7,7 @@ def signups(request):
 def signupr(request):
     return render(request,'home/sign up Recruiters.html')
 def contact(request):
-    return render(request,'home/portal.html')
+    return render(request,'home/contacts.html')
 def credits(request):
     return render(request,'home/credits.html')
 
