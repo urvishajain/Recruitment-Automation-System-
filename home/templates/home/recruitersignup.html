@@ -1,0 +1,56 @@
+{% extends 'base.html' %}
+
+{% block extrahead %}{% endblock %}
+
+{% block title %}{% endblock %}
+
+{% block body %}
+<div style=" padding: 10px 0;">
+        
+    <div class="container-sm my-5 rounded-3 py-3 px-4"
+        style="max-width: 40rem; background-color: rgba(255, 255, 255, 0.8) !important;">
+        <h4 class="text-center">SignUp Form</h4>
+        <h6 class="text-center">(Recruiters)</h6>
+        <form class="row g-3 my-4">
+            <div class="col-12">
+                <!-- <label for="studentroll" class="form-label">Enter Enrollment</label> -->
+                <input type="text" class="form-control" id="studentroll" placeholder="Enter Full Name of Organization">
+            </div>
+            <div class="col-12">
+                <!-- <label for="studentroll" class="form-label">Enter Enrollment</label> -->
+                <input type="text" class="form-control" id="studentroll" placeholder="Contact Person">
+            </div>
+            <div class="col-12">
+                <!-- <label for="studentroll" class="form-label">Enter Enrollment</label> -->
+                <input type="text" class="form-control" id="studentroll" placeholder="Designation">
+            </div>
+            <div class="col-12">
+                <!-- <label for="studentroll" class="form-label">Enter Enrollment</label> -->
+                <input type="text" class="form-control" id="studentroll" placeholder="Email Id">
+            </div>
+            <div class="col-12">
+                <!-- <label for="studentroll" class="form-label">Enter Enrollment</label> -->
+                <input type="text" class="form-control" id="studentroll" placeholder="Phone Number">
+            </div>
+            <div class="col-12">
+                <!-- <label for="studentroll" class="form-label">Enter Enrollment</label> -->
+                <input type="text" class="form-control" id="studentroll" placeholder="Prefered Username">
+            </div>
+            <div class="col-12 mx-2 mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1" required oninvalid="this.setCustomValidity('You must agree to the Terms & Conditions')">
+                <label class="form-check-label" for="exampleCheck1">I accept the <a href="" class="text-decoration-none">Terms and Conditions</a> of Students' Placement Office, Medi-Caps University</label>
+            </div>
+            <div class="col-12 m-0">
+                    1. Kindly register using your official mail ID <br>
+                    2. Username should not contain spaces and/or special characters <br>
+                    3 .Password will be mailed to the registered email ID
+            </div>
+            <div class="col-12 text-center">
+                <button type="submit" class="btn btn-outline-danger">Sign Up</button>
+            </div>
+        </form>
+    </div>
+</div>
+{% endblock %}
+
+{% block js %}{% endblock %}

@@ -1,0 +1,253 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block extrahead %}
+<link rel="stylesheet" href="{% static 'css/credits.css' %}">
+{% endblock %}
+
+{% block title %}{% endblock %}
+
+{% block body %}
+<div class="container bg-white shadow-lg rounded-3 my-4 p-4 my-primary-bgcolor">
+    <div class="mt-3">
+        <div class="mb-4 d-flex justify-content-center">
+            <h3 class="text-center" style="border-bottom: 2px solid #72c02c;">SPO Officials</h3>
+        </div>
+        <div class="spo-officials d-flex justify-content-evenly">
+            <div class="card m-4" style="width: 14rem;">
+                <img src="{% static 'images/vidhi.jpeg' %}" class="card-img-top" alt="...">
+                <div class="card-body px-1">
+                    <h4 class="text-center">Vidhi Mehta</h4>
+                    <h6 class="text-center">Career Development Officer</h6>
+                    <div class="contact-links d-flex justify-content-center flex-column">
+                        <a class="text-center" ref="mailto:vidhimehta@gmail.com">vidhimehta@gmail.com</a>
+                        <a class="text-center" href="tel:+919926599728">0731-4259500</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card m-4" style="width: 14rem;">
+                <img src="{% static 'images/visha.jpeg' %}" class="card-img-top" alt="...">
+                <div class="card-body px-1">
+                    <h4 class="text-center">Visha Arzare</h4>
+                    <h6 class="text-center">Junior Superintendent</h6>
+                    <div class="contact-links d-flex justify-content-center flex-column">
+                        <a class="text-center" ref="mailto:vidhimehta@gmail.com">vishaarzare@gmail.com</a>
+                        <a class="text-center" href="tel:+919926599728">0731-4259500</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="mt-2">
+        <div class="row-fluid">
+            <div class="span12">
+                <div class="headline" style="border-bottom: 2px solid #72c02c; color: #585f69; margin: 0 0 -2px 0; padding-right: 10px; display: inline-block; text-shadow: 0 0 1px #f6f6f6; font-weight: normal !important;font-family: 'Open Sans', sans-serif;    font-size: 24px;line-height: 1.1;margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;">
+                    <h3>Assistant Coordinators</h3>
+                </div>
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th width="50%">Name</th>
+                            <th width="30%">Email</th>
+                            <th width="20%">Mobile</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Abhinav D Singh</td>
+                            <td><a href="..." style="text-decoration: none; color: #333333 ;">
+                                    abhids@example.com
+                                </a></td>
+                            <td>+91 0000000</td>
+                        </tr>
+                        <tr>
+                            <td>Abhishek Verma </td>
+                            <td><a href="mailto:abhivrm@example.ac.in" style="text-decoration: none; color: #333333 ;">
+                                    abhivrm@example.ac.in</a>
+                            </td>
+                            <td>+91 1111111111</td>
+                        </tr>
+                        <tr>
+                            <td>Adarsh Anand </td>
+                            <td><a href="......" style="text-decoration: none; color: #333333 ;">
+                                    adarsh@example.ac.in
+                                </a></td>
+                            <td>+91 2222222222</td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div>
+
+        </div>
+        <div class="row-fluid">
+            <div class="span12">
+                <div class="headline" style="border-bottom: 2px solid #72c02c; color: #585f69; margin: 0 0 -2px 0; padding-right: 10px; display: inline-block; text-shadow: 0 0 1px #f6f6f6; font-weight: normal !important;font-family: 'Open Sans', sans-serif;    font-size: 24px;line-height: 1.1;margin-block-start: 1em;
+margin-block-end: 1em;
+margin-inline-start: 0px;
+margin-inline-end: 0px;">
+                    <h3>Assistant Coordinators of Department</h3>
+                </div>
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th width="35%">Name</th>
+                            <th width="25%">Department</th>
+                            <th width="20%">Email</th>
+                            <th width="20%">Mobile</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td> Neelesh Srivastava </td>
+                            <td> Aerospace Engineering </td>
+                            <td> <a href="........" style="text-decoration: none; color: #333333 ;">
+                                    neelesh20@example.ac.in
+                                </a> </td>
+                            <td> +91 3333333333 </td>
+                        </tr>
+                        <tr>
+                            <td> Saumya Singh </td>
+                            <td> Aerospace Engineering </td>
+                            <td> <a href="......" style="text-decoration: none; color: #333333 ;">
+                                    saumyas@example.ac.in
+                                </a> </td>
+                            <td> +91 444444444 </td>
+                        </tr>
+                        <tr>
+                            <td> Dona Maheshwari </td>
+                            <td> Biosciences and
+                                Bioengineering </td>
+                            <td> <a href="...." style="text-decoration: none; color: #333333 ;">
+                                    dona@example.ac.in
+                                </a> </td>
+                            <td> +91 55555555 </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="row-fluid">
+            <div class="span12">
+                <div class="headline" style="border-bottom: 2px solid #72c02c; color: #585f69; margin: 0 0 -2px 0; padding-right: 10px; display: inline-block; text-shadow: 0 0 1px #f6f6f6; font-weight: normal !important;font-family: 'Open Sans', sans-serif;    font-size: 24px;line-height: 1.1;margin-block-start: 1em;
+margin-block-end: 1em;
+margin-inline-start: 0px;
+margin-inline-end: 0px;">
+                    <h3>Web Team</h3>
+                </div>
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th width="35%">Name</th>
+                            <th width="30%">Position</th>
+                            <th width="20%">Email</th>
+                            <th width="20%">Mobile</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td> Ketan Chaturvedi</td>
+                            <td> Web Head</td>
+                            <td> <a href="........" style="text-decoration: none; color: #333333 ;">
+                                    ketanchaturvedi.24@example.com</a>
+                            </td>
+                            <td> +91 555555555</td>
+                        </tr>
+                        <tr>
+                            <td>Harshit Raj</td>
+                            <td> Web Executive</td>
+                            <td> <a href="mailto:harshit9304@example.com"
+                                    style="text-decoration: none; color: #333333 ;">harshit9304@example.com</a>
+                            </td>
+                            <td> +91 666666666</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="row-fluid">
+            <div class="span12">
+                <div class="headline" style="border-bottom: 2px solid #72c02c; color: #585f69; margin: 0 0 -2px 0; padding-right: 10px; display: inline-block; text-shadow: 0 0 1px #f6f6f6; font-weight: normal !important;font-family: 'Open Sans', sans-serif;    font-size: 24px;line-height: 1.1;margin-block-start: 1em;
+margin-block-end: 1em;
+margin-inline-start: 0px;
+margin-inline-end: 0px;">
+                    <h3>Previous Teams</h3>
+                </div>
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th width="100%"></th>
+
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><a href="..." style="text-decoration: none; color: #333333 ;">
+                                    Team 2020-21
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><a href="....." style="text-decoration: none; color: #333333 ;">
+                                    Team 2019-20
+                            </td>
+                        </tr>
+                        <tr>
+                            <td> <a href="......" style="text-decoration: none; color: #333333 ;">
+                                    Team 2018-19
+                            </td>
+                        </tr>
+
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="row-fluid margin-bottom-30">
+            <div class="span3">
+                <div class="row-fluid">
+                    <div class="headline" style="border-bottom: 2px solid #72c02c; color: #585f69; margin: 0 0 -2px 0; padding-right: 10px; display: inline-block; text-shadow: 0 0 1px #f6f6f6; font-weight: normal !important;font-family: 'Open Sans', sans-serif;    font-size: 24px;line-height: 1.1;margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;">
+                        <h3>Office Address</h3>
+                    </div>
+                    <div class="row-fluid">
+                        <address>
+                            Students Placement Office<br />
+                            A.B. Road, Pigdamber, Rau Indore
+                            - 453331<br />
+                            Medi-Caps University<br />
+                            MP, India.<br />
+                            Phone: <a href="tel:0731-4259500"
+                                style="text-decoration: none; color: #333333 ;">0731-4259500,
+                                2856294</a><br />
+                            Fax: 0731-4259501<br />
+                            Email: <a href="info@medicaps.ac.in"
+                                style="text-decoration: none; color: #333333 ;">info@medicaps.ac.in</a><br />
+                        </address>
+                    </div>
+                    <div class="headline" style="border-bottom: 2px solid #72c02c; color: #585f69; margin: 0 0 -2px 0; padding-right: 10px; display: inline-block; text-shadow: 0 0 1px #f6f6f6; font-weight: normal !important;font-family: 'Open Sans', sans-serif;    font-size: 24px;line-height: 1.1;margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;">
+                        <h3>Getting Here</h3>
+                    </div>
+                    <div class="row-fluid">
+                        <a href="https://www.google.com/maps/dir/22.0472509,75.7255187/Medi-Caps+University,+A.B.+Road,+Pigdamber,+Rau,+Indore,+Madhya+Pradesh+453331,+India/@22.3331534,75.4760318,10z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x3962f958dcb7169d:0xd877c12078e50f0f!2m2!1d75.8035907!2d22.6210224"
+                            class="btn-u"
+                            style="    padding: 4px 13px;vertical-align: middle;background: #72c02c;font-size: 14px;    position: relative;     display: inline-block;    color: #fff !important;text-decoration: none !important;">Directions
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block js %}{% endblock %}

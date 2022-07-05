@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+
+{% block extrahead %}{% endblock %}
+
+{% block title %}{% endblock %}
+
+{% block body %}
+<div style=" padding: 10px 0;">
+    <div class="container-sm my-5 rounded-3 py-3 px-4"
+        style="max-width: 40rem; background-color: rgba(255, 255, 255, 0.8) !important;">
+        <h4 class="text-center">Login Form</h4>
+        <h6 class="text-center">(Students)</h6>
+        <form class="row g-3 my-4">
+            <div class="col-md-6">
+                <label for="studentemail" class="form-label">Email</label>
+                <input type="email" class="form-control" id="studentemail" placeholder="Your Official Mail">
+            </div>
+            <div class="col-md-6">
+                <label for="studentpass" class="form-label">Password</label>
+                <input type="password" class="form-control" id="studentpass" placeholder="Enter Password">
+            </div>
+            <div class="col-12 text-center">
+                <button type="submit" class="btn btn-outline-danger">Sign in</button>
+            </div>
+        </form>
+    </div>
+</div>
+{% endblock %}
+
+{% block js %}{% endblock %}

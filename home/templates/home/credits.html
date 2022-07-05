@@ -1,64 +1,95 @@
 {% extends 'base.html' %}
-{% block mainbody %}
-  <section id="blog" >
-    <div class="container" style="margin-left:15%; margin-right:15%">
 
-      <div class="container">
-        <br>
-        <div class="row text-center">
-          <div class="col-md-10 col-md-offset-1"
-            style="border: 2px solid #cc0000; border-radius: 25px; padding:30px; background : #FFF; ">
-            <div class="col-md-12">
-              <h4> About Placement and Recruitement Automation System </h4>
-              This is a Job and Recruitement Portal created for use of Placements and Internship at Medi-Caps
-              University. It is deployed by
-              Students' Placement Office. The portal aims to reduce the manual office work by providing necessary
-              automation
-              alternatives. It provides information exchange between Students, Companies, Staff and Placement Office.
-              SPO has
-              various powers to mediate between various stake holders in the system.
+{% load static %}
 
-              This web app is a part of multiple web apps aimed at processing data and allow access based on clearance
-              level
-              at SPO. The other apps include a Contact Management App and a Mail Access App. These are developed and
-              maintained by
-              students.
-              <br> <br> <br>
-              <h4>Maintained By </h4>
+{% block extrahead %}
+<link rel="stylesheet" href="{% static 'css/credits.css' %}">
+{% endblock %}
 
-              <table class="table table-hover text-center center">
+{% block title %}{% endblock %}
 
-                <tr>
-                  <td>Suresh Jain </td>
-                </tr>
-                <tr>
-                  <td>DK pande</td>
-                </tr>
-                <tr>
-                  <td>Lakhan Singh</td>
-                </tr>
+{% block body %}
+<div class="container bg-white shadow-lg rounded-3 my-4 p-4 my-primary-bgcolor">
+    <div class="mt-2">
+        <h5 class="text-center">About Placement Automation System</h5>
+        <p>This is a Job Portal created for use of Placements and Internship at IIT Kanpur. It is deployed by Students' Placement Office. The portal aims to reduce the manual office work by providing necessary automation alternatives. It provides information exchange between Students, Companies, Staff and Placement Office. SPO has various powers to mediate between various stake holders in the system. This web app is a part of multiple web apps aimed at processing data and allow access based on clearance level at SPO. The other apps include a Contact Management App and a Mail Access App. These are developed and maintained by students.
+        </p>
+    </div>
+    <div class="mt-5">
+        <h5 class="text-center">Maintained By</h5>
+        <table class="table table-hover text-center center">
 
-                </tbody>
-              </table>
-              <br><br><br>
-              <h4> Team </h4>
+            <tbody><tr>
+              <td>Suresh Jain </td>
+            </tr>
+            <tr>
+              <td>DK pande</td>
+            </tr>
+            <tr>
+              <td>Lakhan Singh</td>
+            </tr>
 
-              Development of the Placement Automation System was undertaken by following people. They designed the
-              system, deciding
-              on frameworks, models UI and whole bunch of stuff. The motivation of the team was to provide a better
-              system to the
-              student community.
-              <div class="container">
-                <a href="https://www.linkedin.com/in/urvisha-jain-10?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BG2bquWl9ROuh1yFDjXmC%2Fg%3D%3D" target="_blank">
-                <img src="/static/images/urvisha.jpeg" class="img-fluid img-thumbnail" width="20%" alt="">
-                <h5>Urvisha Jain</h5></a>
-                <a href="https://www.linkedin.com/in/vidhi-mehta-2252001a8?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B9WnWyiRgSQq7orQJsYZf2w%3D%3D" target="_blank">
-                <img src="/static/images/vidhi.jpeg" class="img-fluid img-thumbnail" width="20%" alt="">
-                <h5>Vidhi Mehta</h5></a>
-                <a href="https://www.linkedin.com/in/visha-arzare-09v07?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BAmHw%2FbinS8qD3ckkmVJvvQ%3D%3D" target="_blank">
-                <img src="/static/images/visha.jpeg" class="img-fluid img-thumbnail" width="20%" alt="">
-                <h5>Visha Arzare</h5></a>
-              </div>
-  </section>
-{% endblock mainbody %}
-  
+            </tbody>
+          </table>
+    </div>
+    <div class="mt-5">
+        <h5 class="text-center">Our Team</h5>
+        <p class="text-center">Development of the Placement Automation System was undertaken by following people. They designed the system, deciding on frameworks, models UI and whole bunch of stuff. The motivation of the team was to provide a better system to the student community.</p>
+        <div class="row justify-content-center">
+            <div class="col-xl-6 col-lg-7 col-md-12">
+                <div class="card profile-header">
+                    <div class="body">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-4 col-12">
+                                <div class="rounded-circle float-md-right"> <img src="{% static 'images/urvisha.jpeg' %}" width="140px" height="140px" alt="" class="rounded-circle"> </div>
+                            </div>
+                            <div class="col-lg-8 col-md-8 col-12">
+                                <h4 class="mt-0 mb-1"><strong>Urvisha Jain</strong></h4>
+                                <span class="year">Junior Year Undergraduate</span>
+                                <p>in Computer Science</p>
+                                <!-- <div>
+                                    <button class="btn btn-primary btn-round">Follow</button>
+                                    <button class="btn btn-primary btn-round btn-simple">Message</button>
+                                </div> -->
+                                <p class="social-icon m-t-5 m-b-0">
+                                    <a title="Twitter" class="mx-2" href=""><i class="fab fa-twitter"></i></a>
+                                    <a title="Facebook" class="mx-2" href=""><i class="fab fa-facebook"></i></a>
+                                    <a title="Instagram" class="mx-2" href=""><i class="fab fa-instagram "></i></a>
+                                </p>
+                            </div>                
+                        </div>
+                    </div>                    
+                </div>
+            </div>
+            <div class="col-xl-6 col-lg-7 col-md-12">
+                <div class="card profile-header">
+                    <div class="body">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-4 col-12">
+                                <div class="rounded-circle float-md-right"> <img src="{% static 'images/ritik.jpg' %}" width="140px" height="140px" alt="" class="rounded-circle"> </div>
+                            </div>
+                            <div class="col-lg-8 col-md-8 col-12">
+                                <h4 class="mt-0 mb-1"><strong>Ritik Jaiswal</strong></h4>
+                                <span class="year">Junior Year Undergraduate</span>
+                                <p>in Computer Science</p>
+                                <!-- <div>
+                                    <button class="btn btn-primary btn-round">Follow</button>
+                                    <button class="btn btn-primary btn-round btn-simple">Message</button>
+                                </div> -->
+                                <p class="social-icon m-t-5 m-b-0">
+                                    <a title="Twitter" class="mx-2" href=""><i class="fab fa-twitter"></i></a>
+                                    <a title="Facebook" class="mx-2" href=""><i class="fab fa-facebook"></i></a>
+                                    <a title="Instagram" class="mx-2" href=""><i class="fab fa-instagram "></i></a>
+                                </p>
+                            </div>                
+                        </div>
+                    </div>                    
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block js %}{% endblock %}

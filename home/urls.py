@@ -18,14 +18,14 @@ from django.urls import path
 from home import views
 
 urlpatterns = [
-    path("",views.main,name='main'),
-    path("main",views.main,name='main'),
-    path("credits",views.credits,name='credits'),
-    path("contacts",views.contacts,name='contacts'),
-    path("signups",views.signups,name='signups'),
-    path("signupr",views.signupr,name='signupr'),
+    path("",views.home,name='home'),
+    path("login/student",views.studentlogin,name='studentLogin'),
+    path("signup/student",views.studentsignup,name='studentSignup'),
+    path("login/recruiter",views.recruiterlogin,name='recruiterLogin'),
+    path("signup/recruiter",views.recruitersignup,name='recruiterSignup'),
     path("forgotpassword",views.forgotpassword,name='forgotpassword'),
-    
+    path("credits",views.credits,name='credits'),
+    path("contacts",views.contactus,name='contactUs'),
 ]
 
 
